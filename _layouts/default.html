@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-        
+
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
 
@@ -19,7 +19,7 @@
 
         <div class="container">
           <div class="site">
-            <div class="header">
+            <div class="header col-lg-12">
               <h1 class="title">Educate † Elevate † Inspire</h1>
               <a class="extra" href="/">home</a>
             </div>
@@ -27,17 +27,20 @@
                 {{ content }}
 
             <div class="footer">
-              <div class="contact">
+              <div itemscope itemtype="http://schema.org/School" class="contact">
                 <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
+                  <span itemprop="name"><strong>Pope John Paul II Catholic School</strong></span>
+				  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="streetAddress">1630 Fourth Street NE</span><br/>
+                  <span itemprop="addressLocality">Minneapolis</span>,
+				  <span itemprop="addressRegion">MN</span> <span itemprop="postalCode">55413</span>
+				  </div>
+				  Phone: <span itemprop="telephone">(612) 789-8851</span><br/>
+				  Fax: <span itemprop="faxNumber">(612) 789-8773</span>
                 </p>
-              </div>
-              <div class="contact">
                 <p>
                   <a href="http://facebook.com/popejohnpaul2ne/"><i class="icon-facebook-sign"></i> facebook.com/popejohnpaul2ne</a><br />
-                  <a href="http://twitter.com/popejohnpaul2ne/"><i class="icon-twitter-sign"></i> @popejohnpaul2ne</a><br />
+                  <a href="http://twitter.com/popejohnpaul2ne/"><i class="icon-twitter-sign"></i> @popejohnpaul2ne</a>
                 </p>
               </div>
             </div>

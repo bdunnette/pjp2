@@ -1,1 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC|Marcellus);
 
+h1, h2, h3, h4 {
+	font-family: 'Marcellus SC', serif;
+}
+
+body, p {
+	font-family: 'Marcellus', serif;
+}
+
+.header {
+	color: white;
+	background: rgb(66, 139, 202);
+}
