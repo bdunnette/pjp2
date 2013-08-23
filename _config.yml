@@ -1,4 +1,4 @@
 name: Pope John Paul II Catholic School
 markdown: redcarpet
 pygments: true
-baseurl: http://bdunnette.github.io/pjp2
+baseurl: /pjp2
